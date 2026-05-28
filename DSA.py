@@ -15,7 +15,7 @@ class Solution:
         
     def merge_arr(self, l,r):
         i=0
-        j=0
+        j=0 # j is 0
         empty=[]
         while i<len(l) and j<len(r):
             if l[i]<=r[j]:
