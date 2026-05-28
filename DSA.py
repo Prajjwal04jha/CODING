@@ -3,7 +3,7 @@ class Solution:
     def mergeSort(self, arr, l, r):
         if len(arr)<=1: # if length < 1
             return arr
-        mid= len(arr)//2
+        mid= len(arr)//2 # this so mid
         left_arr= arr[:mid]
         right_arr= arr[mid:]
         left_arr= self.mergeSort(left_arr, l ,r)
