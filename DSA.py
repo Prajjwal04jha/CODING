@@ -1,7 +1,7 @@
 class Solution:
  
     def mergeSort(self, arr, l, r):
-        if len(arr)<=1:
+        if len(arr)<=1: # if length < 1
             return arr
         mid= len(arr)//2
         left_arr= arr[:mid]
